@@ -1,0 +1,42 @@
+#box{
+    background-color: rgb(200, 253, 221);
+    height: 350px;
+    width: 700px;
+    border-radius: 10px;
+    visibility: hidden;
+    box-shadow: 0 15px 30px rgba(37, 33, 33, 0.3);
+}
+
+body{
+    background-color: rgb(252, 225, 186);
+}
+
+i{
+    float: right;
+}
+
+.one{
+    padding: 20px 10px 0px 10px;
+}
+
+.clicks{
+    margin-top: 10px;
+    border: none;
+    color: rgb(114, 47, 47);
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: linear-gradient(
+        135deg,
+        #585f50,
+        #b6ffed);
+}
+
+.submission{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#box.show{
+    visibility: visible;
+}
